@@ -10,7 +10,7 @@ if "%1"=="" (
 
 set "dir=%1"
 if not exist "%dir%" (
-    echo Каталог %dir% не існує.
+    echo The directory %dir% does not exist.
     exit /b 1
 )
 
@@ -19,6 +19,6 @@ for /f "tokens=*" %%i in ('dir /s /a:d /b /a:r /a:h /ad %1') do (
     set /a count+=1
 )
 
-echo Кількість підкаталогів в каталозі %dir%: %count%
+echo The amount of subdirectories in the directory %dir%: %count%
 pause
 exit /b 0

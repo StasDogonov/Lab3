@@ -22,7 +22,7 @@ mkdir "Lab3\Group\Dogonov\Command_line\folder"
 echo: Folders were created!
 
 attrib +h "Lab3\Group\Dogonov\batch\Hidden_folder"
-echo: The "Hidden_folder" folder was hidden!
+echo: The "Hidden_folder" Folder was hidden!
 
 xcopy /? > "Lab3\Group\Dogonov\batch\folder\copyhelp.txt"
 echo: "copyhelp.txt" File .txt created!
